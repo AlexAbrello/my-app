@@ -1,15 +1,15 @@
+import React, {useState} from 'react';
 import './App.css';
-import UnControlledAccordion from "./components/unControlledComponents/UnControlledAccordion";
-import Rating from "./components/Rating";
+import {Site} from "./components/Site";
+
 
 function App() {
-
-  return (
-    <div>
-      <UnControlledAccordion />
-      <Rating />
-    </div>
-  );
+    return (
+        <div>
+            <Site/>
+        </div>
+    );
 }
+
 
 export default App;
